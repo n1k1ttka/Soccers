@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Soccers</string>
+    <string name="state">%1$d - %2$d</string>
+    <string name="Hello">Новый день - новые победы!</string>
+</resources>

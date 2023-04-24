@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "926614058546",
+    "project_id": "soccers-db07b",
+    "storage_bucket": "soccers-db07b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:926614058546:android:bcaf539a02e30da3c26e2b",
+        "android_client_info": {
+          "package_name": "com.example.soccers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "926614058546-gq609fu1fc5t90ktsbjg5bjn8t8e6pnn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpk-9E5EPbQDCFXCKaVyVCn-4J6q3sVqk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "926614058546-gq609fu1fc5t90ktsbjg5bjn8t8e6pnn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
