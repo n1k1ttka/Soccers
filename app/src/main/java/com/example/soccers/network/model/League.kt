@@ -1,11 +1,20 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class League(
-    val country: String,
-    val flag: String,
-    val id: Int,
-    val logo: String,
-    val name: String,
-    val round: String,
-    val season: Int
+    @SerializedName("country")
+    val country: String?,
+    @SerializedName("flag")
+    val flag: String?,
+    @SerializedName("id")
+    val id: Int?,
+    @SerializedName("logo")
+    val logo: String?,
+    @SerializedName("name")
+    val name: String?,
+    @SerializedName("round")
+    val round: String?,
+    @SerializedName("season")
+    val season: Int?
 )

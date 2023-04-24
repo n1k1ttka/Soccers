@@ -1,6 +1,10 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Goals(
-    val away: Int,
-    val home: Int
+    @SerializedName("away")
+    val away: Int?,
+    @SerializedName("home")
+    val home: Int?
 )

@@ -1,6 +1,9 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Penalty(
-    val away: Any,
-    val home: Any
+    @SerializedName("away")
+    val away: Int?,
+    val home: Int?
 )

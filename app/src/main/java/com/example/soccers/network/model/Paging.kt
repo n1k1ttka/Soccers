@@ -1,6 +1,10 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Paging(
-    val current: Int,
-    val total: Int
+    @SerializedName("current")
+    val current: Int?,
+    @SerializedName("total")
+    val total: Int?
 )

@@ -1,5 +1,8 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Parameters(
-    val live: String
+    @SerializedName("live")
+    val live: String?
 )

@@ -1,8 +1,14 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Home(
-    val id: Int,
-    val logo: String,
-    val name: String,
-    val winner: Boolean
+    @SerializedName("id")
+    val id: Int?,
+    @SerializedName("logo")
+    val logo: String?,
+    @SerializedName("name")
+    val name: String?,
+    @SerializedName("winner")
+    val winner: Boolean?
 )

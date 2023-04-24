@@ -1,7 +1,12 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Status(
-    val elapsed: Int,
-    val long: String,
-    val short: String
+    @SerializedName("elapsed")
+    val elapsed: Int?,
+    @SerializedName("long")
+    val long: String?,
+    @SerializedName("short")
+    val short: String?
 )

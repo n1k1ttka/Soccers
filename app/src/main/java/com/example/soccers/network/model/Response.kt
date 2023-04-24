@@ -1,9 +1,16 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Response(
-    val fixture: Fixture,
-    val goals: Goals,
-    val league: League,
-    val score: Score,
-    val teams: Teams
+    @SerializedName("fixture")
+    val fixture: Fixture?,
+    @SerializedName("goals")
+    val goals: Goals?,
+    @SerializedName("league")
+    val league: League?,
+    @SerializedName("score")
+    val score: Score?,
+    @SerializedName("teams")
+    val teams: Teams?
 )

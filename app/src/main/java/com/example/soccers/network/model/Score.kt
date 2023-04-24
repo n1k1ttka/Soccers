@@ -1,8 +1,14 @@
 package com.example.soccers.network.model
 
+import com.google.gson.annotations.SerializedName
+
 data class Score(
-    val extratime: Extratime,
-    val fulltime: Fulltime,
-    val halftime: Halftime,
-    val penalty: Penalty
+    @SerializedName("extratime")
+    val extratime: Extratime?,
+    @SerializedName("Fulltime")
+    val fulltime: Fulltime?,
+    @SerializedName("Halftime")
+    val halftime: Halftime?,
+    @SerializedName("Penalty")
+    val penalty: Penalty?
 )
