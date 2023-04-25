@@ -13,7 +13,7 @@
             android:id="@+id/fixtures_list"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:background="@color/background"
+            android:background="@color/white"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/goToThird"
@@ -24,7 +24,8 @@
             android:id="@+id/goToThird"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/background"
+            android:text="Нажать для большей информации"
+            android:background="@drawable/button_background"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" />
 

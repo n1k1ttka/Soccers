@@ -55,7 +55,7 @@ class InformationListAdapter: RecyclerView.Adapter<InformationListAdapter.Inform
         fun bind(item: Response){
             with(binding){
                 this.fixtureDate.text = datefromUnix(item.fixture?.timestamp)
-                "${item.goals?.home} - ${item.goals?.away}".also { this.state.text = it }
+                "${item.goals?.home ?: 0} - ${item.goals?.away ?: 0}".also { this.state.text = it }
                 Glide.with(this.label1).load(item.teams?.home?.logo).into(this.label1)
                 this.team1.text = item.teams?.home?.name
                 Glide.with(this.label2).load(item.teams?.away?.logo).into(this.label2)

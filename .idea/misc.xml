@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/drawable/button_background.xml" value="0.182" />
         <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/drawable/img_background.xml" value="0.165" />
         <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/drawable/item_background.xml" value="0.165" />
         <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/font/fonts.xml" value="0.2948717948717949" />
-        <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/layout/fragment_information.xml" value="0.25" />
+        <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/layout/fragment_information.xml" value="0.335" />
         <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/layout/fragment_splash.xml" value="0.25" />
         <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/layout/fragment_webview.xml" value="0.26927083333333335" />
         <entry key="..\:/Users/nikit/AndroidStudioProjects/Soccers/app/src/main/res/layout/information_item.xml" value="0.25" />
